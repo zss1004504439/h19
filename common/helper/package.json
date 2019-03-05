@@ -1,0 +1,80 @@
+{
+  "_from": "think-helper",
+  "_id": "think-helper@1.1.2",
+  "_inBundle": false,
+  "_integrity": "sha1-d2jS4gFV2ZQEWLUMhVvfSBZMMM8=",
+  "_location": "/think-helper",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "think-helper",
+    "name": "think-helper",
+    "escapedName": "think-helper",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "http://registry.npm.taobao.org/think-helper/download/think-helper-1.1.2.tgz",
+  "_shasum": "7768d2e20155d9940458b50c855bdf48164c30cf",
+  "_spec": "think-helper",
+  "_where": "D:\\Projects\\thinkjs-admin-server\\client\\app-framework",
+  "author": {
+    "name": "songguangyu",
+    "email": "522963130@qq.com"
+  },
+  "ava": {
+    "require": [
+      "babel-core/register"
+    ]
+  },
+  "bugs": {
+    "url": "https://github.com/thinkjs/think-helper/issues"
+  },
+  "bundleDependencies": false,
+  "contributors": [
+    {
+      "name": "songguangyu",
+      "email": "522963130@qq.com"
+    }
+  ],
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "crypto": "^1.0.1",
+		"ms": "^2.1.1",
+		"uuid": "^3.3.2"
+  },
+  "deprecated": false,
+  "description": "Helper for ThinkJS",
+  "devDependencies": {
+    "ava": "^0.18.0",
+    "codecov": "^1.0.1",
+    "coveralls": "^2.11.16",
+    "eslint": "^4.2.0",
+    "eslint-config-think": "^1.0.1",
+    "nyc": "^7.1.0"
+  },
+  "engines": {
+    "node": ">=6.0.0"
+  },
+  "homepage": "https://github.com/thinkjs/think-helper#readme",
+  "keywords": [],
+  "main": "index.js",
+  "name": "think-helper",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thinkjs/think-helper.git"
+  },
+  "scripts": {
+    "coverage": "nyc report --reporter=text-lcov > coverage.lcov && codecov",
+    "lint": "eslint index.js",
+    "lint-fix": "eslint --fix index.js",
+    "test": "eslint index.js && nyc ava test/"
+  },
+  "type": "index.d.ts",
+  "version": "1.1.2"
+}

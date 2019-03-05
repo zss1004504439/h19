@@ -1,0 +1,20 @@
+{
+  "name": "h19club_wxMINI",
+  "version": "1.0.0",
+  "description": "h19club小程序",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "h19club",
+  "license": "MIT",
+  "dependencies": {
+    "core-util-is": "^1.0.2",
+    "crypto": "^1.0.1",
+    "flyio": "^0.6.9",
+    "ms": "^2.1.1",
+    "tracer": "^0.9.8",
+    "uuid": "^3.3.2",
+    "js-md5": "^0.7.3"
+  }
+}

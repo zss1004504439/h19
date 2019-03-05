@@ -1,0 +1,35 @@
+
+/*grace css hwj */
+.grace-padding{padding: 0 5%; width:90%;}
+/* 字库链接 */
+ @font-face {
+	font-family: 'DINCondensedC';
+	src: url('http://file.h19club.com/h19clubWxMINI/font/DINCondensedC-2.ttf') format('truetype');
+}
+.font_DIN{
+	font-family: 'DINCondensedC';
+}
+@font-face {
+  font-family: 'h19clubwx';  /* project id 1033725 */
+  src: url('//at.alicdn.com/t/font_1033725_9dfmzewhqq.eot');
+  src: url('//at.alicdn.com/t/font_1033725_9dfmzewhqq.eot?#iefix') format('embedded-opentype'),
+  url('//at.alicdn.com/t/font_1033725_9dfmzewhqq.woff2') format('woff2'),
+  url('//at.alicdn.com/t/font_1033725_9dfmzewhqq.woff') format('woff'),
+  url('//at.alicdn.com/t/font_1033725_9dfmzewhqq.ttf') format('truetype'),
+  url('//at.alicdn.com/t/font_1033725_9dfmzewhqq.svg#h19clubwx') format('svg');
+}
+.h19clubwx {
+  font-family: "h19clubwx" !important;
+  font-size: 21px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+view,navigator{
+  font: 14px/1.5 Microsoft YaHei,tahoma,arial,'Hiragino Sans GB','\5b8b\4f53',sans-serif;
+}
+.gray{color: #989898 !important;}	
+.fontWeight{ font-weight: bold;}	
+.f12 {font-size: 12px;}
+.f16 {font-size: 16px;}
+.f32 {font-size: 32px;}
